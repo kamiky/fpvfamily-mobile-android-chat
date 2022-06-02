@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "NativeMessageList",
+    "slug": "NativeMessageList",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "NativeMessageList"
+}
