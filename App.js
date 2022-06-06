@@ -1,7 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import MessageList from './src/MessageList';
+import MessageList from 'fpvfamily-mobile-android-chat';
 
 
 var movielistData = [{
