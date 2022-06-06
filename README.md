@@ -8,7 +8,7 @@ The npm package is not published but you can install it from github.
 
 - In `package.json` add the dependency with `COMMIT_ID` the commit you need to use
 
-`"fpvfamily-mobile-android-chat": "https://github.com/amandin88/fpvfamily-mobile-android-chat.git#COMMIT_ID"`
+`"fpvfamily-mobile-android-chat": "https://github.com/kamiky/fpvfamily-mobile-android-chat.git#COMMIT_ID"`
 
 
 ## Init the library
