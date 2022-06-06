@@ -21,12 +21,12 @@
     "android"
   ],
   "repository": "https://github.com/kamiky/fpvfamily-mobile-android-chat",
-  "author": "Alexis M <alexis.mandin8826@gmail.com> (https://github.com/amandin88)",
+  "author": "Alexis M <alexis.mandin8826@gmail.com> (https://github.com/kamiky)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/amandin88/fpvfamily-mobile-android-chat/issues"
+    "url": "https://github.com/kamiky/fpvfamily-mobile-android-chat/issues"
   },
-  "homepage": "https://github.com/amandin88/fpvfamily-mobile-android-chat#readme",
+  "homepage": "https://github.com/kamiky/fpvfamily-mobile-android-chat#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
