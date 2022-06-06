@@ -31,7 +31,7 @@ class MessageListManager extends SimpleViewManager<RecyclerView> {
         return recyclerView;
     }
 
-    @ReactProp(name="isScrollEnabled")
+    @ReactProp(name="scrollEnabled")
     public void setScrollMode(RecyclerView recyclerView, boolean isScrollEnabled) {
 
         LinearLayoutManager mLayoutManager = new LinearLayoutManager(recyclerView.getContext()){

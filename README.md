@@ -38,7 +38,7 @@ var movielistData = [{
 <MessageList 
     style={styles.messageList} 
     listing = {JSON.stringify(movielistData)}
-    isScrollEnabled = { true }
+    scrollEnabled = { true }
   />
       
 // ...
