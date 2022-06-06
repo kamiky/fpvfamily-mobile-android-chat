@@ -13,27 +13,6 @@ The npm package is not published but you can install it from github.
 
 ## Init the library
 
-Before being able to use the library, do the following steps
-
-- In `MainApplication.java` of the React Native project `PROJECT_NAME\android\app\src\main\java\PACKAGES_NAME\`, 
-- Import the library and Add `packages.add(new MessageListPackage());` inside the `getPackages()` function as below
-
-
-```js
-import com.nativemessagelist.MessageListPackage;
-
-// ...
-
- @Override
-  protected List<ReactPackage> getPackages() {
-    @SuppressWarnings("UnnecessaryLocalVariable")
-    List<ReactPackage> packages = new PackageList(this).getPackages();
-    packages.add(new MessageListPackage());
-    return packages;
-  }
-```
-
-
 ## Usage
 
 
