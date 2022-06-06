@@ -1,0 +1,52 @@
+{
+  "name": "fpvfamily-mobile-android-chat",
+  "version": "0.1.0",
+  "description": "Test",
+  "main": "lib/commonjs/index",
+  "module": "lib/module/index",
+  "react-native": "src/index",
+  "source": "src/index",
+  "files": [
+    "src",
+    "lib",
+    "android",
+    "fpvfamily-mobile-android-chat.podspec",
+    "!android/build"
+  ],
+  "scripts": {
+    "prepare": "bob build"
+  },
+  "keywords": [
+    "react-native",
+    "android"
+  ],
+  "repository": "https://github.com/amandin88/fpvfamily-mobile-android-chat",
+  "author": "Alexis M <alexis.mandin8826@gmail.com> (https://github.com/amandin88)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amandin88/fpvfamily-mobile-android-chat/issues"
+  },
+  "homepage": "https://github.com/amandin88/fpvfamily-mobile-android-chat#readme",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.19",
+    "@types/react-native": "0.62.13",
+    "react": "16.13.1",
+    "react-native": "0.63.4",
+    "react-native-builder-bob": "^0.18.0"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "react-native-builder-bob": {
+    "source": "src",
+    "output": "lib",
+    "targets": [
+      "commonjs",
+      "module"
+    ]
+  }
+}
