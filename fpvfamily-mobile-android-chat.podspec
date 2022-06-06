@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.authors      = package["author"]
 
   s.platforms    = { :ios => "10.0" }
-  s.source       = { :git => "https://github.com/amandin88/fpvfamily-mobile-android-chat.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/kamiky/fpvfamily-mobile-android-chat.git", :tag => "#{s.version}" }
 
   s.source_files = "ios/**/*.{h,m,mm,swift}"
 
