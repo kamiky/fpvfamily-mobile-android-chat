@@ -1,10 +1,3 @@
-import { requireNativeComponent } from 'react-native';
-import {ViewPropTypes} from 'deprecated-react-native-prop-types';
+import MessageList from "./components/MessageList";
 
-var viewProps = {
-  name: 'MessageList',
-  propTypes: {
-    ...ViewPropTypes
-  }
-}
-module.exports = requireNativeComponent('MessageList', viewProps);
+export default MessageList;
