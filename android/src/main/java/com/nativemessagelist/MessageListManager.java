@@ -50,7 +50,7 @@ class MessageListManager extends SimpleViewManager<RecyclerView> {
     if (layoutManager == null || adapter == null) return false;
 
     return layoutManager.findLastCompletelyVisibleItemPosition() < adapter.getItemCount() - 1;
-  }*//
+  }*/
 
 
   @ReactProp(name = "listing")
