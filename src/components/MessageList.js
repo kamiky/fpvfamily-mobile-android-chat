@@ -7,7 +7,7 @@ const MessageList = (props, ref) => {
     const [scrollEnabled, setIsScrollable] = useState(props.scrollEnabled);
 
     useImperativeHandle(ref, () => ({
-        getScrollEnabled: () => { return scrollEnabled;}
+        getScrollEnabled: () => { return MessageListNative.getScrollEnabled();}
       }))
 
     useEffect(() => {

@@ -62,7 +62,7 @@ export default function App() {
           ref={messageListRef}
           style={styles.messageList} 
           listing = {JSON.stringify(movielistData)}
-          scrollEnabled = {false}
+          scrollEnabled = {true}
         />
       </View>
 
