@@ -43,14 +43,10 @@ class MessageListManager extends SimpleViewManager<RecyclerView> {
     recyclerView.setLayoutManager(mLayoutManager);
   }
 
- /* @ReactProp(name = "getScrollEnabled")
-  public boolean getScrollMode(RecyclerView recyclerView) {
-    LinearLayoutManager layoutManager = (LinearLayoutManager) recyclerView.getLayoutManager();
-    RecyclerView.Adapter adapter = recyclerView.getAdapter();
-    if (layoutManager == null || adapter == null) return false;
-
-    return layoutManager.findLastCompletelyVisibleItemPosition() < adapter.getItemCount() - 1;
-  }*/
+  @ReactMethod
+  public boolean getScrollEnabled() {
+    return false;
+  }
 
 
   @ReactProp(name = "listing")
